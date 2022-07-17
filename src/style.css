@@ -1,1 +1,147 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: linear-gradient(45deg, #084c61, #122b40);
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* // Normal Size Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 25vw;
+  height: 80vh;
+  background: white;
+  border-radius: 4%;
+  margin-top: 3vh;
+  box-shadow: 10px 10px 5px #040000;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.palo1M {
+  font-size: 6em;
+  padding: 1vw;
+  margin-right: 15vw;
+}
+
+.numM {
+  font-size: 7em;
+  padding: 10vh 1vw;
+}
+
+.palo2M {
+  font-size: 6em;
+  padding: 1vw;
+  margin-left: 15vw;
+  transform: rotate(180deg);
+}
+
+/* // End of Normal Size Card */
+/* // Small Size Card */
+
+.smallCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 15vw;
+  height: 50vh;
+  background: white;
+  border-radius: 4%;
+  margin-top: 3vh;
+  box-shadow: 10px 10px 5px #040000;
+}
+
+.palo1S {
+  font-size: 4em;
+  padding: 1vw;
+  margin-right: 10vw;
+}
+
+.numS {
+  font-size: 6em;
+  padding: 3vh 1vw;
+}
+
+.palo2S {
+  font-size: 4em;
+  padding: 1vw;
+  margin-left: 10vw;
+  transform: rotate(180deg);
+}
+/* // End of Small Size Card */
+.btn {
+  font-weight: bolder;
+  box-sizing: border-box;
+  width: 10vw;
+  height: 6vh;
+  background: rgb(239, 214, 172);
+  border-radius: 4%;
+  border: 3px solid white;
+  color: white;
+  margin-right: 3vw;
+}
+
+.btn:hover {
+  background-color: rgb(188, 149, 82);
+}
+
+.btn:active {
+  background-color: rgb(188, 149, 82);
+  transform: translateY(3px);
+}
+
+.timerBtn {
+  font-weight: bolder;
+  box-sizing: border-box;
+  width: 10vw;
+  height: 6vh;
+  background: rgb(196, 73, 0);
+  border-radius: 4%;
+  margin-top: 6vh;
+  border: 3px solid white;
+  color: white;
+  margin-right: 3vw;
+}
+
+.timerBtn:hover {
+  background-color: rgb(110, 40, 0);
+}
+
+.timerBtn:active {
+  background-color: rgb(110, 40, 0);
+  transform: translateY(3px);
+}
+
+.sizeBtn {
+  font-weight: bolder;
+  box-sizing: border-box;
+  width: 10vw;
+  height: 6vh;
+  background: rgb(67, 37, 52);
+  border-radius: 4%;
+  margin-top: 6vh;
+  border: 3px solid white;
+  color: white;
+}
+
+.sizeBtn:hover {
+  background-color: rgb(34, 11, 22);
+}
+
+.sizeBtn:active {
+  background-color: rgb(34, 11, 22);
+  transform: translateY(3px);
+}
